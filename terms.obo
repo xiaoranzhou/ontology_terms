@@ -4,339 +4,506 @@ saved-by: xiaoranzhou
 default-namespace: terms
 
 [Term]
+id: ENA
+
+[Term]
+id: GEO
+
+[Term]
+id: Metabolights
+
+[Term]
+id: PRIDE
+
+[Term]
 id: format
 
 [Term]
-id: terms_.abf_10
+id: terms_.abf_45
 name: Axon Binary File file format
+def: "Axon Instruments Formats file format" [-]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.baf_50
+id: terms_.baf_46
 name: Bruker file format
+def: "instrument data format file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.bam_14
-name: compressed binary version of a SAM file file format
+id: terms_.bam_10
+name: bam file format
+def: "compressed binary version of a SAM file file format" [http://edamontology.org/format_2572]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.bam_27
-name: compressed binary version of a SAM file file format
+id: terms_.bam_11
+name: BAM file format
+def: "compressed binary version of a SAM file file format" [http://edamontology.org/format_2572]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.cdf_4
+id: terms_.cdf_35
 name: netCDF (AIA/ANDI) interchange data format file format
+def: "interchange file format" [http://edamontology.org/format_3650]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.cmp_7
+id: terms_.cmp_36
 name: netCDF compare file file format
+def: "contains information about compounds detected by MetaboliteDetector	 file format" [-]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.cram_15
-name: compressed columnar file format for storing biological sequences aligned to a reference sequence file format
+id: terms_.cram_12
+name: cram file format
+def: "compressed columnar file format for storing biological sequences aligned to a reference sequence file format" [http://edamontology.org/format_3462]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.cram_28
-name: compressed columnar file format for storing biological sequences aligned to a reference sequence file format
+id: terms_.cram_13
+name: CRAM file format
+def: "compressed columnar file format for storing biological sequences aligned to a reference sequence file format" [http://edamontology.org/format_3462]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.d_0
+id: terms_.d_43
 name: Agilent file format
+def: "instrument data format file format" [-]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.d_49
+id: terms_.d_44
 name: Agilent file format
+def: "instrument data format file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.dat_2
+id: terms_.dat_51
 name: Chromtech, Finnigan, VG file format
+def: "Finnigan ITDS file format, MassLab data format file format" [-]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.dat_57
+id: terms_.dat_52
 name: Chromtech, Finnigan, VG file format
+def: "Finnigan ITDS file format, MassLab data format file format" [http://edamontology.org/format_3713]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.dta_43
-name: nan file format
+id: terms_.dta_6
+name: Sequest MS/MS peak list file format
+def: "myIdentML file format" [nan]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.fa_16
+id: terms_.fa_15
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.fa_29
+id: terms_.fa_22
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.faa_17
+id: terms_.faa_16
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.faa_30
+id: terms_.faa_23
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.fas_18
+id: terms_.fas_17
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.fas_31
+id: terms_.fas_24
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.fast5_40
-name: HDF5 file format
+id: terms_.fast5_14
+name: fast5 file format
+def: "sequencing file format" [nan]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.fasta_19
+id: terms_.fasta_18
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.fasta_32
+id: terms_.fasta_25
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.fastq_20
+id: terms_.fastq_29
 name: fastq file format
+def: "Includs both fasta type sequence and its quality scores. file format" [http://edamontology.org/format_1930]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.fastq_33
+id: terms_.fastq_31
 name: fastq file format
+def: "Includs both fasta type sequence and its quality scores. file format" [http://edamontology.org/format_1930]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.ffn_21
+id: terms_.ffn_19
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.ffn_34
+id: terms_.ffn_26
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.fid_51
+id: terms_.fid_47
 name: Bruker file format
+def: "instrument data format file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.fna_22
+id: terms_.fna_20
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.fna_35
+id: terms_.fna_27
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.fq_23
+id: terms_.fq_30
 name: fastq file format
+def: "Includs both fasta type sequence and its quality scores. file format" [http://edamontology.org/format_1930]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.fq_36
+id: terms_.fq_32
 name: fastq file format
+def: "Includs both fasta type sequence and its quality scores. file format" [http://edamontology.org/format_1930]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.frn_24
+id: terms_.frn_21
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.frn_37
+id: terms_.frn_28
 name: fasta file format
+def: "FAST-All: combination of FAST-P and FAST-N file format" [http://edamontology.org/format_1929]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.h5_25
+id: terms_.h5_33
 name: hdf5 file format
+def: "Includs both fasta type sequence and its quality scores. file format" [http://edamontology.org/format_3590]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.h5_38
+id: terms_.h5_54
 name: HDF5 file format
+def: "Hierarchical Data Format file format" [http://edamontology.org/format_3590]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.idb_3
+id: terms_.idb_59
 name: MASSLAB binary file file format
+def: "instrument data format file format" [-]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.ita_64
+id: terms_.ita_56
 name: ION-TOF file format
+def: "analysis data file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.itm_63
+id: terms_.itm_55
 name: ION-TOF file format
+def: "raw measurement data file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.jpf_11
+id: terms_.jpf_58
 name: Mass Center Main Mass Spectrometry Data (JEOL USA, Inc.) file format
+def: "instrument data format tab-delimited text file file format" [-]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.lcd_9
+id: terms_.lcd_66
 name: Shimadzu  LC Solution / Labsolutions Data File file format
+def: "QQQ/QTOF instrument data format file format" [-]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.mgf_13
+id: terms_.mgf_57
 name: Mascot Generic File file format
+def: "the standard format for MS/MS searches in proteomics and are now commonly used for small molecule MS/MS search file format" [-]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.mgf _42
-name: nan file format
+id: terms_.mgf _0
+name: Mascot Generic File file format
+def: "Mascot Generic File file format" [nan]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.ms2_44
-name: nan file format
+id: terms_.ms2_7
+name: Sequest MS/MS peak list file format
+def: "myIdentML file format" [nan]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.ms_58
+id: terms_.ms_53
 name: Finnigan (Thermo) file format
+def: "ITS40 instrument data format file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.msp_46
-name: nan file format
+id: terms_.msp_8
+name: Sequest MS/MS peak list file format
+def: "spectral library file  file format" [nan]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.nist_48
-name: nan file format
+id: terms_.mzdata_2
+name: mzData file format
+def: "HUPO PSI predecessor of mzML file format" [nan]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.pkl_45
-name: nan file format
+id: terms_.mzml_3
+name: mzML file format
+def: "PSI mass spectra file format file format" [nan]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.qgd_56
+id: terms_.mzxml_4
+name: mzXML file format
+def: "Mass spectra file format from the Institute for Systems Biology file format" [nan]
+is_a: PRIDE
+is_a: format
+
+[Term]
+id: terms_.nist_5
+name: nist file format
+def: "spectral library file  file format" [nan]
+is_a: PRIDE
+is_a: format
+
+[Term]
+id: terms_.pkl_1
+name: Micromass peak list file format
+def: "Micromass peak list file format" [nan]
+is_a: PRIDE
+is_a: format
+
+[Term]
+id: terms_.qgd_63
 name: Shimadzu file format
+def: "GCMSSolution format file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.qgd_59
+id: terms_.qgd_64
 name: Shimadzu file format
+def: "instrument data format file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.raw_1
-name: Thermo Xcalibur, Micromass (Waters), PerkinElmer, Waters file format
-is_a: format
-
-[Term]
-id: terms_.raw_55
-name: Thermo Xcalibur, Micromass (Waters), PerkinElmer, Waters file format
-is_a: format
-
-[Term]
-id: terms_.raw_65
+id: terms_.raw_61
 name: Physical Electronics/ULVAC-PHI file format
+def: "raw measurement data file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.scan_6
+id: terms_.raw_68
+name: Thermo Xcalibur, Micromass (Waters), PerkinElmer, Waters file format
+def: "Thermo Xcalibur, Micromass (Waters) MassLynx, PerkinElmer TurboMass file format" [http://edamontology.org/format_3712]
+is_a: Metabolights
+is_a: format
+
+[Term]
+id: terms_.raw_69
+name: Thermo Xcalibur, Micromass (Waters), PerkinElmer, Waters file format
+def: "Thermo Xcalibur, Micromass (Waters) MassLynx, PerkinElmer TurboMass file format" [http://edamontology.org/format_3712]
+is_a: PRIDE
+is_a: format
+
+[Term]
+id: terms_.scan_39
 name: a spectrum or a Total Ion Chromatogram (TIC) file format
+def: "Part of WIFF type output file format" [-]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.sff_26
+id: terms_.sff_37
 name: sff-trim file format
+def: "a binary file format used to encode results of pyrosequencing from the 454 Life Sciences platform for high-throughput sequencing file format" [http://edamontology.org/format_3284]
+is_a: ENA
 is_a: format
 
 [Term]
-id: terms_.sff_39
+id: terms_.sff_38
 name: sff-trim file format
+def: "a binary file format used to encode results of pyrosequencing from the 454 Life Sciences platform for high-throughput sequencing file format" [http://edamontology.org/format_3284]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_.sms_61
+id: terms_.sms_49
 name: Bruker/Varian file format
+def: "instrument data format file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.spc_60
+id: terms_.spc_65
 name: Shimadzu file format
+def: "library data format file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.splib _47
-name: nan file format
+id: terms_.splib _9
+name: spLib file format
+def: "spectral library file  file format" [nan]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.t2d_54
+id: terms_.t2d_42
 name: ABI/Sciex file format
+def: "4700 and 4800 file format file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.tdc_66
+id: terms_.tdc_62
 name: Physical Electronics/ULVAC-PHI file format
+def: "spectrum data file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.wiff_5
+id: terms_.wiff_40
 name: ABI/Sciex file format
+def: "QSTAR and QTRAP file format file format" [http://edamontology.org/format_36500]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.wiff_53
+id: terms_.wiff_41
 name: ABI/Sciex file format
+def: "QSTAR and QTRAP file format file format" [http://edamontology.org/format_3710]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.xms_62
+id: terms_.xms_50
 name: Bruker/Varian file format
+def: "instrument data format file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_.xps_12
+id: terms_.xps_67
 name: Thermo Fisher Scientific K-Alpha+ spectrometer file file format
+def: "to investigate the chemical composition of the anodized films file format" [-]
+is_a: Metabolights
 is_a: format
 
 [Term]
-id: terms_.yep_52
+id: terms_.yep_48
 name: Bruker file format
+def: "instrument data format file format" [-]
+is_a: PRIDE
 is_a: format
 
 [Term]
-id: terms_bas.h5_41
+id: terms_bas.h5_34
 name: HDF5 file format
+def: "sequencing file format" [nan]
+is_a: GEO
 is_a: format
 
 [Term]
-id: terms_cdf.cmp_8
+id: terms_cdf.cmp_60
 name: netCDF compare file file format
+def: "contains information about compounds detected by MetaboliteDetector	 file format" [-]
+is_a: Metabolights
 is_a: format
