@@ -1,0 +1,342 @@
+format-version: 1.4
+data-version: 0.1
+saved-by: xiaoranzhou
+default-namespace: terms
+
+[Term]
+id: format
+
+[Term]
+id: terms_.abf_10
+name: Axon Binary File file format
+is_a: format
+
+[Term]
+id: terms_.baf_50
+name: Bruker file format
+is_a: format
+
+[Term]
+id: terms_.bam_14
+name: compressed binary version of a SAM file file format
+is_a: format
+
+[Term]
+id: terms_.bam_27
+name: compressed binary version of a SAM file file format
+is_a: format
+
+[Term]
+id: terms_.cdf_4
+name: netCDF (AIA/ANDI) interchange data format file format
+is_a: format
+
+[Term]
+id: terms_.cmp_7
+name: netCDF compare file file format
+is_a: format
+
+[Term]
+id: terms_.cram_15
+name: compressed columnar file format for storing biological sequences aligned to a reference sequence file format
+is_a: format
+
+[Term]
+id: terms_.cram_28
+name: compressed columnar file format for storing biological sequences aligned to a reference sequence file format
+is_a: format
+
+[Term]
+id: terms_.d_0
+name: Agilent file format
+is_a: format
+
+[Term]
+id: terms_.d_49
+name: Agilent file format
+is_a: format
+
+[Term]
+id: terms_.dat_2
+name: Chromtech, Finnigan, VG file format
+is_a: format
+
+[Term]
+id: terms_.dat_57
+name: Chromtech, Finnigan, VG file format
+is_a: format
+
+[Term]
+id: terms_.dta_43
+name: nan file format
+is_a: format
+
+[Term]
+id: terms_.fa_16
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.fa_29
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.faa_17
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.faa_30
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.fas_18
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.fas_31
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.fast5_40
+name: HDF5 file format
+is_a: format
+
+[Term]
+id: terms_.fasta_19
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.fasta_32
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.fastq_20
+name: fastq file format
+is_a: format
+
+[Term]
+id: terms_.fastq_33
+name: fastq file format
+is_a: format
+
+[Term]
+id: terms_.ffn_21
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.ffn_34
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.fid_51
+name: Bruker file format
+is_a: format
+
+[Term]
+id: terms_.fna_22
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.fna_35
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.fq_23
+name: fastq file format
+is_a: format
+
+[Term]
+id: terms_.fq_36
+name: fastq file format
+is_a: format
+
+[Term]
+id: terms_.frn_24
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.frn_37
+name: fasta file format
+is_a: format
+
+[Term]
+id: terms_.h5_25
+name: hdf5 file format
+is_a: format
+
+[Term]
+id: terms_.h5_38
+name: HDF5 file format
+is_a: format
+
+[Term]
+id: terms_.idb_3
+name: MASSLAB binary file file format
+is_a: format
+
+[Term]
+id: terms_.ita_64
+name: ION-TOF file format
+is_a: format
+
+[Term]
+id: terms_.itm_63
+name: ION-TOF file format
+is_a: format
+
+[Term]
+id: terms_.jpf_11
+name: Mass Center Main Mass Spectrometry Data (JEOL USA, Inc.) file format
+is_a: format
+
+[Term]
+id: terms_.lcd_9
+name: Shimadzu  LC Solution / Labsolutions Data File file format
+is_a: format
+
+[Term]
+id: terms_.mgf_13
+name: Mascot Generic File file format
+is_a: format
+
+[Term]
+id: terms_.mgf _42
+name: nan file format
+is_a: format
+
+[Term]
+id: terms_.ms2_44
+name: nan file format
+is_a: format
+
+[Term]
+id: terms_.ms_58
+name: Finnigan (Thermo) file format
+is_a: format
+
+[Term]
+id: terms_.msp_46
+name: nan file format
+is_a: format
+
+[Term]
+id: terms_.nist_48
+name: nan file format
+is_a: format
+
+[Term]
+id: terms_.pkl_45
+name: nan file format
+is_a: format
+
+[Term]
+id: terms_.qgd_56
+name: Shimadzu file format
+is_a: format
+
+[Term]
+id: terms_.qgd_59
+name: Shimadzu file format
+is_a: format
+
+[Term]
+id: terms_.raw_1
+name: Thermo Xcalibur, Micromass (Waters), PerkinElmer, Waters file format
+is_a: format
+
+[Term]
+id: terms_.raw_55
+name: Thermo Xcalibur, Micromass (Waters), PerkinElmer, Waters file format
+is_a: format
+
+[Term]
+id: terms_.raw_65
+name: Physical Electronics/ULVAC-PHI file format
+is_a: format
+
+[Term]
+id: terms_.scan_6
+name: a spectrum or a Total Ion Chromatogram (TIC) file format
+is_a: format
+
+[Term]
+id: terms_.sff_26
+name: sff-trim file format
+is_a: format
+
+[Term]
+id: terms_.sff_39
+name: sff-trim file format
+is_a: format
+
+[Term]
+id: terms_.sms_61
+name: Bruker/Varian file format
+is_a: format
+
+[Term]
+id: terms_.spc_60
+name: Shimadzu file format
+is_a: format
+
+[Term]
+id: terms_.splib _47
+name: nan file format
+is_a: format
+
+[Term]
+id: terms_.t2d_54
+name: ABI/Sciex file format
+is_a: format
+
+[Term]
+id: terms_.tdc_66
+name: Physical Electronics/ULVAC-PHI file format
+is_a: format
+
+[Term]
+id: terms_.wiff_5
+name: ABI/Sciex file format
+is_a: format
+
+[Term]
+id: terms_.wiff_53
+name: ABI/Sciex file format
+is_a: format
+
+[Term]
+id: terms_.xms_62
+name: Bruker/Varian file format
+is_a: format
+
+[Term]
+id: terms_.xps_12
+name: Thermo Fisher Scientific K-Alpha+ spectrometer file file format
+is_a: format
+
+[Term]
+id: terms_.yep_52
+name: Bruker file format
+is_a: format
+
+[Term]
+id: terms_bas.h5_41
+name: HDF5 file format
+is_a: format
+
+[Term]
+id: terms_cdf.cmp_8
+name: netCDF compare file file format
+is_a: format
